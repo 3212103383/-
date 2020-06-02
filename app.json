@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/index",
+    "pages/goods_list/index",
+    "pages/goods_detail/index",
+    "pages/cart/index",
+    "pages/collect/index",
+    "pages/order/index",
+    "pages/search/index",
+    "pages/user/index",
+    "pages/feedback/index",
+    "pages/login/index",
+    "pages/auth/index",
+    "pages/pay/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "萌新优购",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#5c8fff",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icons/home.jpg",
+      "selectedIconPath": "icons/home-o.jpg"
+    },{
+      "pagePath": "pages/category/index",
+      "text": "分类",
+      "iconPath": "icons/category.jpg",
+      "selectedIconPath": "icons/category-o.jpg"
+    },{
+      "pagePath": "pages/cart/index",
+      "text": "购物车",
+      "iconPath": "icons/cart.jpg",
+      "selectedIconPath": "icons/cart-o.jpg"
+    },{
+      "pagePath": "pages/user/index",
+      "text": "我的",
+      "iconPath": "icons/my.jpg",
+      "selectedIconPath": "icons/my-o.jpg"
+    }], "color": "#0094ff",
+    "selectedColor": "#ff9400"
+    
+  },
+  
+    
+  "style": "v2",
+  "sitemapLocation": "sitemap.json" 
+}
